@@ -1,0 +1,284 @@
+@media screen and (max-width: 2024px) {
+
+    body {
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .seccion_uno {
+        overflow: hidden;
+    }
+
+    .news {
+        display: flex;
+        padding: 0.825em 6em;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    #ultima_img {
+        display: none;
+    }
+
+    #casa_ult {
+        display: none;
+    }
+
+    #mobile_p {
+        display: none;
+    }
+
+    #lista_cuart {
+        display: none;
+    }
+
+    #palabra-extra {
+        display: none;
+    }
+
+    #palabra-extra2 {
+        display: none;
+    }
+
+    #follow_ultimo {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .texto_cinco{font-size: 13px;}
+    #prim-p{font-size: 19px;}
+    .news{font-size: 10px;}
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow: hidden;
+
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .seccion_uno {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .menu a,
+    .menu div {
+        display: none;
+    }
+
+    .todo_input {
+        margin-left: -300px;
+    }
+
+    .todo_input .input1 {
+        padding: 9px 66px 10px 24px;
+    }
+
+    .texto_luxury {
+        font-size: 10px;
+    }
+
+    /* segunda*/
+    .world {
+        margin-left: -44px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #world-h {
+        display: flex;
+        text-align: left;
+        font-size: 26px;
+    }
+
+    #palabra-extra {
+        display: flex;
+        margin-bottom: 5px;
+        color: #DF991B;
+    }
+
+    .texto_world p {
+        align-items: center;
+        margin-top: 20px;
+        width: 90vw;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+    .texto_world {
+        width: 100vw;
+        height: 100wh;
+        margin-bottom: 30px;
+
+    }
+
+    #mobile_p {
+        display: block;
+    }
+
+
+    .botones_word {
+        display: none;
+    }
+
+    .lista {
+        height: 60vh;
+    }
+
+    /*tercera*/
+
+    #rent {
+        font-size: 30px;
+    }
+
+    .rent_world {
+        display: flex;
+        flex-direction: column;
+        margin-left: -44px;
+    }
+
+    #rent-p {
+        margin-top: 15px;
+        width: 90vw;
+        margin-right: 20px;
+    }
+
+    .carrusel_imagen {
+        height: 60vh;
+    }
+
+    #palabra-extra2 {
+        display: flex;
+        color: #DF991B;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .botones {
+        display: none;
+    }
+
+    /*cuarta*/
+    .luxury_cuatro {
+        font-size: 11px;
+    }
+
+    #luxury-h {
+        text-align: left;
+    }
+
+    .lista4 {
+        display: none;
+    }
+
+    #lista_cuart {
+        display: block;
+    }
+
+    #lista_cuart h1 {
+        color: gray;
+        text-align: center;
+    }
+
+    #lista_cuart h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*quinta*/
+
+    .cuadro {
+        display: none;
+    }
+
+    .texto_cinco {
+        width: 100vw;
+        margin-left: 10px;
+    }
+
+    #prim {
+        font-size: 30px;
+
+    }
+
+    #prim-p {
+        margin-top: 15px;
+        width: 90vw;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+
+
+    .botones_cinco {
+        display: none;
+    }
+
+
+    /*ultimo*/
+    footer {
+        display: block;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    #footer-h {
+        font-size: 20px;
+    }
+
+    .news {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0.015em 0.02em;
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #follow_ultimo {
+        display: block;
+        color: #DF991B;
+    }
+
+
+    .follow {
+        display: none;
+    }
+
+    /*imagen ultima*/
+    #imagen_ultima {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+
+    #casa_ult {
+        display: block;
+        background-color: black;
+    }
+
+    #ultima_img {
+        display: block;
+    }
+
+    .footer-text {
+        margin-top: -80px;
+    }
+}

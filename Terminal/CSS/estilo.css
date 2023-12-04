@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --font-family-cuprum: 'Cuprum';
+    --font-family-display: 'Playfair Display';
+    --font-family-cabin: 'Cabin'
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-cuprum);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.seccion_uno {
+    background: linear-gradient(rgba(49, 49, 49, 0.082), rgba(233, 225, 225, 0.774));
+    background-image: url(/IMG/Imagenes/mikail-mcverry-GSL3IuuwJv8-unsplash\ 1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mobile {
+    height: 2.5em;
+    width: 2.5em;
+    display: none;
+}
+
+.navbar_header {
+    height: 3.125em;
+    width: 100%;
+    padding: 0 3.125em;
+    border-bottom: solid 0.125em white;
+    position: fixed;
+    top: 1.25em;
+}
+
+.navbar_header .nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_header .nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.25em;
+}
+
+.navbar_header .nav a .nav-logo {
+    height: fit-content;
+    width: fit-content;
+}
+
+.navbar_header .navbar_containerts-links {
+    height: fit-content;
+    display: flex;
+    gap: 2.5em;
+}
+
+
+.navbar_header .navbar_containerts-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.25em;
+}
+
+.login,
+.menu {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.bar {
+    width: 0.1875em;
+    background-color: white;
+    height: 1.125em;
+}
+
+.large {
+    height: 2.125em;
+}
+
+/* Input parte uno */
+
+.texto_luxury .todo_input {
+    position: relative;
+    display: flex;
+}
+
+
+.todo_input .input1 {
+
+    margin-top: 15%;
+    margin-left: 55%;
+    border-radius: 100px;
+    background-color: transparent;
+    border: white solid 0.0625em;
+    padding: 1.1875em 14.200em 1.375em 2.75em;
+    color: white;
+    background-image: url(/IMG/Imagenes/Group\ 241.png);
+    background-repeat: no-repeat;
+    background-position: 300px;
+}
+
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+
+/* texto de la parte uno*/
+.texto_luxury {
+    width: 100%;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.texto_luxury .contenido_luxury {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 3.125em;
+    position: relative;
+}
+
+.texto_luxury .contenido_luxury h1 {
+    font-family: var(--font-family-display);
+    font-size: 3.75em;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.texto_luxury .contenido_luxury h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.875em;
+    font-weight: 400;
+    color: #B4B7B7;
+}
+
+/* Aqui el boton de luxury parte uno*/
+.botones_luxury .boton_luxury {
+    margin-top: 0.9375em;
+    margin-left: 3.125em;
+    color: whitesmoke;
+    font-weight: 600;
+    border: solid 0.0625em whitesmoke;
+    background-color: transparent;
+    padding: 1.5em 4.0625em;
+    border-radius: 100px;
+}
+
+/*Aqui el follow de la parte uno*/
+
+.follow {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: #7E7E7E;
+    font-family: var(--font-family-cuprum);
+    gap: 0.9375em;
+    align-items: center;
+}
+
+.follow .social {
+    width: fit-content;
+}
+
+.follow p {
+    font-weight: 800;
+    font-size: 1.25em;
+    transform: rotate(90deg);
+}
+
+.follow .linea {
+    height: 2.8125em;
+    border-left: 0.125em solid #7E7E7E;
+    margin-top: 0.625em;
+}
+
+
+/* Aqui la segunda seccion*/
+.world {
+    margin-top: 3.75em;
+    display: flex;
+}
+
+.world .texto_world {
+    text-align: right;
+    margin-right: 2.125em;
+    padding: 0 3.125em;
+}
+
+
+.world .texto_world h1 {
+    font-family: var(--font-family-display);
+    font-size: 3.75em;
+    font-weight: 31.25em;
+    color: #000000;
+}
+
+.world .texto_world h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.875em;
+    font-weight: 25em;
+    color: #DF991B;
+}
+
+/* Aqui los botones de la seccion dos*/
+
+.botones_word .boton2_word {
+    font-weight: 300;
+    border: solid 0.0625em black;
+    background-color: transparent;
+    padding: 1.5em 4.0625em;
+    border-radius: 6.25em;
+}
+
+.botones_word .boton1_word {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    color: #B4B7B7;
+
+}
+
+.botones_word .boton3_word {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #DF991B;
+
+}
+
+.botones_word {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.125em;
+    margin-top: 17.9375em;
+}
+
+/*Aqui las imagenes de la seccion dos*/
+
+.world {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.world .lista {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    overflow: hidden;
+    gap: 0.9375em;
+}
+
+.imagenes {
+    grid-column: span 5;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes:hover img {
+    cursor: pointer;
+}
+
+.imagenes:hover p {
+    background-color: #FFF;
+    color: #000;
+}
+
+.imagenes:hover .principal {
+    color: #464547;
+}
+
+.imagenes:hover .principal::before {
+    content: url(/IMG/Imagenes/Group\ 287.png);
+}
+
+.imagenes_activa {
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes_activa:hover img {
+    cursor: pointer;
+}
+
+.imagenes_activa:hover p {
+    background-color: #FFF;
+    color: #000;
+}
+
+.imagenes_activa:hover .principal {
+    color: #464547;
+}
+
+.imagenes_activa:hover .principal::before {
+    content: url(/IMG/Imagenes/Group\ 287.png);
+}
+
+.imagenes_activa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*parrafo extra de la seccion movil*/
+#mobile_p {
+    display: flex;
+    text-align: left;
+    font-family: var(--font-family-cabin);
+    font-size: 1.25em;
+    font-weight: 20.625em;
+    color: #000000;
+    margin-right: 4.375em;
+}
+
+/* Aqui la seccion 3*/
+
+.rent_world {
+    margin-top: 3.75em;
+}
+
+.rent_world .texto_rent_botones {
+    align-items: center;
+    padding: 0 3.125em;
+}
+
+.rent_world .texto_rent_botones h1 {
+    font-family: var(--font-family-display);
+    font-size: 3.75em;
+    font-weight: 31.25em;
+    color: #000000;
+}
+
+.rent_world .texto_rent_botones h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.875em;
+    font-weight: 25em;
+    color: #DF991B;
+}
+
+.rent_world .texto_rent_botones p {
+    font-family: var(--font-family-cabin);
+    font-size: 1.25em;
+    font-weight: 20.625em;
+    color: #000000;
+    margin-right: 4.375em;
+    margin-top: 3.1875em;
+}
+
+/*seccion de los botones*/
+
+.botones .boton2 {
+    font-weight: 600;
+    border: solid 0.0625em black;
+    background-color: transparent;
+    padding: 1.5em 4.0625em;
+    border-radius: 6.25em;
+}
+
+.botones .boton1 {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    color: #B4B7B7;
+
+}
+
+.botones .boton3 {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #DF991B;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.125em;
+    margin-top: 4.75em;
+}
+
+/* Aqui las imagenes de la seccion 3*/
+.rent_world {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rent_world .carrusel_imagen {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    overflow: hidden;
+    gap: 0.9375em;
+}
+
+.imagenes {
+    grid-column: span 5;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes:hover img {
+    cursor: pointer;
+}
+
+.imagenes:hover p {
+    background-color: #FFF;
+    color: #000;
+}
+
+.imagenes:hover .principal {
+    color: #464547;
+}
+
+.imagenes:hover .principal::before {
+    content: url(/IMG/Imagenes/Group\ 287.png);
+}
+
+.imagenes_activa {
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes_activa:hover img {
+    cursor: pointer;
+}
+
+.imagenes_activa:hover p {
+    background-color: #FFF;
+    color: #000;
+}
+
+.imagenes_activa:hover .principal {
+    color: #464547;
+}
+
+.imagenes_activa:hover .principal::before {
+    content: url(/IMG/Imagenes/Group\ 287.png);
+}
+
+.imagenes_activa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Aqui el texto de las imagenes*/
+.imagenes .texto_abajo {
+    font-family: var(--font-family-display);
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.imagenes .texto_abajo .principal {
+    font-size: 1.875em;
+    font-weight: 400;
+}
+
+.imagenes .texto_abajo .abajo {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+
+.imagenes_activa .texto_abajo_activa {
+    font-family: var(--font-family-display);
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.imagenes_activa .texto_abajo_activa .principal {
+    font-size: 1.875em;
+    font-weight: 400;
+}
+
+.imagenes_activa .texto_abajo_activa .abajo {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+
+/* Aqui la seccion cuatro*/
+.luxury_cuatro {
+    margin-top: 3.75em;
+    flex-direction: column;
+}
+
+.luxury_cuatro .contenido_luxury4 {
+    justify-content: center;
+    text-align: center;
+}
+
+.luxury_cuatro .contenido_luxury4 h1 {
+    font-family: var(--font-family-display);
+    font-size: 3.75em;
+    font-weight: 31.25em;
+    color: #000000;
+}
+
+.luxury_cuatro .contenido_luxury4 h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.875em;
+    font-weight: 400;
+    color: #DF991B;
+}
+
+/* Aqui las imagenes de la seccion cuatro*/
+.lista4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2.8125em;
+    gap: 3.4375em;
+    padding: 0 5.625em;
+}
+
+.imge {
+    overflow: hidden;
+    position: relative;
+}
+
+.imge img {
+    width: 100%;
+    height: 100%;
+    transition: all;
+}
+
+
+/* Aqui el texto de las imagenes de la seccion 4*/
+.imge .texto_abajo_lista {
+    font-family: var(--font-family-display);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    padding: 0.375em 0.375em;
+}
+
+.imge:hover {
+    transform: translateY(-2em);
+    border: solid 1px black;
+}
+
+.imge p {
+    background-color: #FFF;
+    color: #000;
+}
+
+.imge .principal {
+    color: #464547;
+}
+
+.imge .texto_abajo_lista .principal {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.imge .texto_abajo_lista .abajo {
+    font-size: 1.875em;
+    font-weight: 500;
+}
+
+/* Aqui la seccion cinco*/
+
+.Art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3.75em;
+}
+
+.texto_cinco {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.imagen_art_ul img {
+    width: 80%;
+}
+
+.Art .texto_cinco h1 {
+    font-family: var(--font-family-display);
+    font-size: 2.95em;
+    font-weight: 31.25em;
+    color: #000000;
+}
+
+.Art .texto_cinco h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.875em;
+    font-weight: 25em;
+    color: #DF991B;
+}
+
+.Art .texto_cinco p {
+    font-family: var(--font-family-cabin);
+    font-size: 1.25em;
+    font-weight: 20.225em;
+    color: #000000;
+    margin-right: 2.375em;
+    margin-top: 2.1875em;
+}
+
+/*Botones de la seccion cinco*/
+
+.botones_cinco .boton2_cinco {
+    font-weight: 400;
+    border: solid 0.0625em black;
+    background-color: transparent;
+    padding: 1.5em 4.0625em;
+    border-radius: 100px;
+}
+
+.botones_cinco .boton1_cinco {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    color: #B4B7B7;
+}
+
+.botones_cinco .boton3_cinco {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #DF991B;
+}
+
+.botones_cinco {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.275em;
+    margin-top: 2.125em;
+    margin-right: 50px;
+}
+
+/* Aqui la parte de la imagen de la seccion cinco*/
+.cuadro {
+    width: 100%;
+}
+
+.elemento1 {
+    background-color: #26282B;
+    height: 25em;
+    width: 13.75em;
+    margin-left: 3.125em;
+    margin-top: 1.25em;
+
+}
+
+.elemento2 {
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/IMG/Imagenes/Group\ 289.png);
+    margin-top: -22.5em;
+    margin-left: 6.25em;
+    height: 20em;
+    width: 20em;
+}
+
+
+/* Aqui va lo ultimo: el footer */
+footer {
+    width: 100%;
+    margin-top: 10.25em;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+
+.news { 
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    gap: 1.875em;
+    padding: 0.825em 6em;
+    transform: translate(0, -50%);
+}
+
+.news span {
+    color: orange;
+    font-size: 1.15em;
+}
+
+.news h1 {
+    font-family: var(--font-family-display);
+    font-size: 3.75em;
+    font-weight: 350;
+    color: #000000;
+}
+
+.news h2 {
+    font-family: var(--font-family-display);
+    font-size: 1.845em;
+    font-weight: 250;
+    color: #DF991B;
+}
+
+.news p {
+    color: white;
+    font-size: 2em;
+}
+
+/* Input parte final */
+.footer-form {
+    display: grid;
+    gap: 0.5em;
+    color: grey;
+}
+
+.footer-form p {
+    font-size: small;
+}
+
+.footer-form input {
+    color: grey;
+    background-color: transparent;
+    border: solid 0.125em grey;
+    border-radius: 100px;
+    padding: 0.375em 7.625em;
+    width: 100%;
+}
+
+.footer-form button {
+    background-color: transparent;
+    border: solid 0.125em orange;
+    border-radius: 100px;
+    padding: 0.375em 3em;
+    width: fit-content;
+    color: orange;
+    justify-self: end;
+}
+
+
+/* segundo cuadro de la seccion ultima*/
+.info {
+    display: grid;
+    gap: 1em;
+    color: white;
+}
+
+.footer-bar {
+    width: 100%;
+    height: 0.1875em;
+    background-color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.footer-text {
+    font-family: var(--font-family-cuprum);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #B4B7B7;
+}
+
+.ultimo2_1 p {
+    margin-bottom: -0.125em;
+}
+
+.ultimo2_2 {
+    margin-left: 5.3125em;
+    margin-bottom: 2.5em;
+}
+
+.ultimo2_3 .apart {
+    margin-bottom: 1.5625em;
+}
+
+.ultimo2_4 p,
+.numero {
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+
+#lista_cuart img {
+    width: 100vw;
+
+}
+
+#casa_ult {
+    width: 20vw;
+    padding: 40px 90px;
+    margin-top: 20px;
+}
+
+#ultima_img {
+    margin-left: -70px;
+    margin-top: 20px;
+    width: 100vw;
+    padding: 135px 10px;
+    display: block;
+    background-image: url(/IMG/Imagenes/Group\ 289.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
