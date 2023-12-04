@@ -47,11 +47,23 @@
     }
 
 }
-@media screen and (max-width: 800px){
-    .texto_cinco{font-size: 13px;}
-    #prim-p{font-size: 19px;}
-    .news{font-size: 10px;}
-    
+
+@media screen and (max-width: 1183px) {
+    .texto_cinco {
+        font-size: 13px;
+    }
+
+    #prim-p {
+        font-size: 19px;
+    }
+
+    .news {
+        font-size: 10px;
+    }
+
+    .lista4 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
