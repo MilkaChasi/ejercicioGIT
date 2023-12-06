@@ -47,16 +47,6 @@
     }
 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-@media screen and (max-width: 800px){
-    .texto_cinco{font-size: 13px;}
-    #prim-p{font-size: 19px;}
-    .news{font-size: 10px;}
-    
-=======
-=======
->>>>>>> d36582a52d0299c23c739cae19a94cf9e6174e28
 
 @media screen and (max-width: 800px) {
     .texto_cinco {
@@ -68,14 +58,7 @@
     }
 
     .news {
-        font-size: 10px;
-    }
-
-<<<<<<< HEAD
->>>>>>> d36582a (Proyecto Landingpage Chasi Milka)
-=======
->>>>>>> d36582a52d0299c23c739cae19a94cf9e6174e28
-}
+        font-size: 10px;}}
 
 @media screen and (max-width: 600px) {
 
