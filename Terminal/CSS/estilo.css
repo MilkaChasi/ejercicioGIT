@@ -109,7 +109,7 @@ html {
     border: white solid 0.0625em;
     padding: 1.1875em 14.200em 1.375em 2.75em;
     color: white;
-    background-image: url(/IMG/Imagenes/Group\ 241.png);
+    background-image: url(../IMG/Imagenes/Group\ 241.png);
     background-repeat: no-repeat;
     background-position: 300px;
 }
@@ -288,7 +288,7 @@ input::placeholder {
 }
 
 .imagenes:hover .principal::before {
-    content: url(/IMG/Imagenes/Group\ 287.png);
+    content: url(../IMG/Imagenes/Group\ 287.png);
 }
 
 .imagenes_activa {
@@ -311,7 +311,7 @@ input::placeholder {
 }
 
 .imagenes_activa:hover .principal::before {
-    content: url(/IMG/Imagenes/Group\ 287.png);
+    content: url(../IMG/Imagenes/Group\ 287.png);
 }
 
 .imagenes_activa img {
@@ -439,7 +439,7 @@ input::placeholder {
 }
 
 .imagenes:hover .principal::before {
-    content: url(/IMG/Imagenes/Group\ 287.png);
+    content: url(../IMG/Imagenes/Group\ 287.png);
 }
 
 .imagenes_activa {
@@ -462,7 +462,7 @@ input::placeholder {
 }
 
 .imagenes_activa:hover .principal::before {
-    content: url(/IMG/Imagenes/Group\ 287.png);
+    content: url(../IMG/Imagenes/Group\ 287.png);
 }
 
 .imagenes_activa img {
@@ -696,7 +696,7 @@ input::placeholder {
     overflow: hidden;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(/IMG/Imagenes/Group\ 289.png);
+    background-image: url(../IMG/Imagenes/Group\ 289.png);
     margin-top: -22.5em;
     margin-left: 6.25em;
     height: 20em;
@@ -840,7 +840,7 @@ footer {
     width: 100vw;
     padding: 135px 10px;
     display: block;
-    background-image: url(/IMG/Imagenes/Group\ 289.png);
+    background-image: url(../IMG/Imagenes/Group\ 289.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
