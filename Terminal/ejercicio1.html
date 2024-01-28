@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+        Crear una variable llamada numeroDeElementos que el profesor manipulará.
+        
+        Esta variable indicará el número de resultados que se imprimirán en consola de la serie
+            Fibonnaci.
+        
+        El objetivo del ejercicio es que el programador sea capaz de imprimir todos los números
+                de dicha serie hasta tener el número de dígitos indicado en la variable
+                numeroDeElementos.
+        
+        Tomar en cuenta que la serie Fibonacci comienza así: 0,1 Dicha serie suma los dos
+                elementos anteriores para generar el siguiente. El tercer elemento sería 0+1=1 quedando
+                la serie 0,1,1 el cuarto elemento 1+1= 2 quedando la serie para numeroDeElemento= 4 en
+        */
+        var numeroDeElementos = parseInt(prompt("Ingrese un valor numérico"));
+        let Fibonacci = [];
+
+        for (let i = 0; i < numeroDeElementos; i++) {
+            Fibonacci[0] = 0, Fibonacci[1] = 1, Fibonacci[i] = Fibonacci[i - 2] + Fibonacci[i - 1]
+        }
+        console.log(Fibonacci);
+
+
+    </script>
+</body>
+
+</html>

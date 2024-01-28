@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+                Ejercicio 2:
+        El objetivo del ejercicio es ordenar un arreglo que puede contener cualquier tipo de valor y
+        devolver el arreglo con solo los números ordenados de mayor a menor.
+        
+        El algoritmo de ordenación tiene que ser implementado desde 0. Es decir, no se puede
+        utilizar una librería que ordene ni funciones como .sort para resolver.
+        
+        El resultado final tendrá que imprimirse en consola y SOLO podrá contener número.
+        */
+
+        let arr = ["milka", 14, 25, 32, 69, 40, 78, 96, 500, false, true, 4];
+        let resultado = [];
+        let mayor = 0;
+        let datosOrdenados = [];
+
+        /* Primero obtuve los numeros*/
+        for (let i = 0; i < arr.length; i++) {
+            if (typeof arr[i] == 'number') {
+                resultado.push(arr[i])
+            }
+        }
+        console.log(arr);
+        // console.log(resultado);      Lo imprimi para verificar
+
+
+        /* Obtener el valor mayor */
+        for (let i = 0; i < arr.length; i++) {
+            if (resultado[i] > mayor && typeof resultado[i] == 'number') {
+                mayor = resultado[i]
+            }
+        }
+        // console.log(mayor);         solo lo realice para verificar 
+
+
+
+        /* Ordenar de mayor a menor */
+        for (let i = 0; i < resultado.length; i++) {
+            for (let j = i + 1; j < resultado.length; j++) {
+                comparacion = 0;
+                if (resultado[i] < resultado[j]) {
+                    comparacion = resultado[i];
+                    resultado[i] = resultado[j];
+                    resultado[j] = comparacion;
+                }
+            }
+        }
+
+        for (let i = 0; i < resultado.length; i++) {
+            datosOrdenados.push(resultado[i]);
+        }
+
+        console.log(datosOrdenados);
+
+    </script>
+</body>
+
+</html>
