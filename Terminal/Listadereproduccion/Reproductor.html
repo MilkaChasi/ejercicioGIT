@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styleLogin.css">
+</head>
+
+<body>
+        <section id="seccion_uno">
+
+                <div id="icono_musica">
+                        <img src="./Portadas/music-icon.jpg" alt="icono" class="icon-music">
+
+                </div>
+                <div class="icon_usuario">
+                        <a href="./Login.html"><i class="fa fa-group" style="font-size:48px;"></i>
+                        </a>
+                </div>
+
+        </section>
+
+        <section id="seccion_dos">
+                <!--seccion de los recuadros-->
+                <div id="recuadros">
+                        <div id="buscador">
+                                <p>Buscador</p>
+                                <input id="buscar" type="text" spellcheck="false" data-ms-editor="true"
+                                        placeholder="nombre,artista,género">
+                                <button id="search">Buscar <i class="bi bi-search"></i></button>
+                        </div>
+                        <h2>Mis Busquedas</h2>
+                        <ul id="listaCanciones">
+
+                        </ul>
+
+                        <div class="myplaylist">
+                                <h2>My Playlist</h2>
+                                <ul id="myplaylist">
+                                       
+                                </ul>
+                        </div>
+
+                        <div class="Favoritas">
+                                <h2>Favoritas</h2>
+                                <ul id="Favoritas">
+                                      
+                                </ul>
+                        </div>
+                </div>
+                <!--seccion de la portada-->
+                <div id="cancion">
+                        <div id="portada">
+                                <img id="portadaimagen" src="./Portadas/1.jpg" alt="portada">
+                        </div>
+                        <div id="texto-cancion">
+                                <p>Nombre:</p>
+                                <p>Duración:</p>
+                                <p>Artista:</p>
+                                <p>Año:</p>
+                                <p>Género:</p>
+                        </div>
+                        <div class="boxes">
+                        <div id="botones-reproduccion">
+                                <button id="anterior" class="fa fa-backward" style="font-size:30px;"></button>
+                                <button id="play" class="fa fa-play" style="font-size:30px;"> </button>
+                                <button id="next" class="fa fa-forward" style="font-size:30px;" onclick='(1)'> </button>
+                                <button id="pause" class="fa fa-stop" style="font-size:30px;"> </button></button>
+                                <button id="stop" class="fa fa-bell-slash-o" style="font-size:30px"> </button>
+                        </div>
+                        </div>
+        </section>
+        <script defer src="./script.js"></script>
+</body>
+
+</html>
